@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', cursive;
+    /* font-family: 'Gentium Plus', cursive; */
+}
+/* hERO nAV AREA sTART hERE */
+.hero_nav{
+    background-image: url(../img/hero_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 40px;
+    font-family: Gentium Plus;
+    font-weight: bold;
+
+}
+.navbar-nav li:hover a{
+    color:#cc9900;
+}
+.nav_social:hover{
+    color: #fff;
+}
+.nav_social i{
+    color: #ffd454;
+    padding: 10px;
+}
+.nav_social i:hover{
+    color: #fff;
+}
+.hero-area{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.hero-area h1{
+    color: #fff;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.hero-area img{
+}
+.hero_btn1{
+    background: #2420206b;
+    color: #fff;
+    font-size: 18px;
+    font-family: roboto;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border-radius: 0;
+
+}
+.hero_btn2{
+    background: #ffffff62;
+    color: #fff;
+    font-size: 18px;
+    font-family: roboto;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border-radius: 0;
+
+}
+
+
+/* hERO nAV AREA eND hERE */
+
+/* aBOUT aREA sTART hERE */
+.about-area{
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+.about_left h2{
+    color: #cc9900;
+    font-size: 36px;
+    margin: 0;
+}
+.about_left img{
+    padding: 20px 0;
+}
+.about_left p{
+    font-size: 16px;
+    font-family: 'Lato';
+    color: #4c4c4c;
+    line-height: 24px;
+    width: 80%;
+    margin: 0 auto;
+}
+.about_right img{
+width: 510px;
+}
+
+/* aBOUT aREA eND hERE */
+
+/* iNGRADIENTS aREA sTART hERE */
+.ingradients-area{
+    background-image: url(../img/ingradients_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ingradients_right{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.ingradients_box{
+    background: #00000087;
+    width: 400px;
+    margin: 60px;
+    border: 1px solid #fff;
+    padding: 25px;
+}
+.ingradients_box h2{
+    color: #fff;
+    font-size: 36px;
+
+}
+.ingradients_box p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.ingradients_box img{
+    margin: 20px 0px;
+}
+.elips_wrapper img{
+    width: 50px;
+    margin: 0px 8px;
+}
+
+/* iNGRADIENTS aREA eND hERE */
+
+/* mENU aREA sTART hERE */
+.menu-area{
+    padding: 40px 0;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;;
+}
+.menu-area h2{
+    font-size: 36px;
+    text-align: center;
+    color:#cc9900;
+}
+.menu_left img{
+    margin: 0 auto;
+    display: block;
+    padding: 10px 0;
+}
+.price_wrapper{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.price_wrapper p{
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 300;
+    margin: 0;
+}
+.price_heading{
+    float: left;
+    width: 50%;
+}
+.price_heading h5{
+    color:#cc9900;
+    border-bottom: 1px solid #cc9900;
+    font-size: 20px
+}
+.price{
+    float: right;
+    width: 50%;
+}
+.price h5{
+    text-align: right;
+    color:#cc9900;
+    border-bottom: 1px solid #cc9900;
+    font-size: 20px;
+}
+.border4{
+    border: 1px solid #cc9900;
+    padding: 10px;
+}
+.special_box {
+    position: absolute;
+    right: -1px;
+    top: -30px;
+}
+.special_box h6{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato';
+    background: #cc9900;
+    text-align: right;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 20px;
+}
+/* mENU aREA eND hERE */
+
+/* rEVIEW aREA sTART hERE */
+.review-area{
+    background-image: url(../img/review_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+}
+.review{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.review_box{
+    background: #000000ad;
+    width: 400px;
+    margin: 60px;
+    padding: 25px;
+}
+.review_box h2{
+    color: #fff;
+    font-size: 36px;
+
+}
+.review_box p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.review_box img{
+    margin: 20px 0px;
+}
+/* rEVIEW aREA eND hERE */
+
+/* rESERVATIONS  aREA sTART hERE*/
+.reservations-area{
+    padding: 80px ;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.reserv_left {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reserv_left_img_wrapper{
+
+}
+.reserv_left img{
+    width: 100%;
+    height: 100%;
+}
+.reserv_right{
+    padding: 0px 40px;
+}
+
+.reserv_right h2{
+    font-size: 36px;
+    text-align: center;
+    color:#cc9900;
+    margin: 0;
+}
+.reserv_right img{
+    margin: 10px 0px;
+}
+.reserv_right p{
+    font-size: 16px;
+    font-family: 'Lato';
+    color: #4c4c4c;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.input_area form{
+    text-align: left;
+}
+.input_area form label{
+    color: #cc9900;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 20px;
+}
+.input_area input, select{
+    font-family: 'Lato';
+}
+.input_area .book_now_btn{
+    background: #cc9900;
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 20px;
+    width: 280px;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.input_area .book_now_btn:hover{
+    color: #333;
+    background: transparent;
+}
+/* rESERVATIONS  aREA eND hERE*/
+
+/* fOOTER aREA sTART hERE */
+.footer-area{
+    background: #191919;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0px 20px 0px;
+}
+.footer-area h3{
+    margin: 0;
+    font-size: 30px;
+}
+.footer-area img{
+    margin: 20px 0
+}
+.footer-area p{
+    font-size: 14px;
+    font-family: 'Lato';
+    color: #a8a8a8;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.footer-area h6{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.footer-area h6 span{
+    font-weight: 300;
+    font-family: 'Lato';
+}
+.footer-area h5{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: bold;
+    line-height: 30px;
+}
+.footer-area .footer_icon{
+    margin-top: 20px;
+}
+.footer-area .footer_icon i{
+    font-size: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+
+.last-footer{
+    background: #000000;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .last-footer p{
+    color: #808080;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Lato';
+  }
+  .last-footer p span{
+    color: #fff;
+    font-family: 'Lato';
+  }
+/* fOOTER aREA eND hERE */
