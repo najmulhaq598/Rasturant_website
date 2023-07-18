@@ -256,16 +256,12 @@ width: 100%;
     align-items: center;
     justify-content: center;
 }
-.reserv_left_img_wrapper{
 
-}
 .reserv_left img{
     width: 100%;
     height: 100%;
 }
-.reserv_right{
-    padding: 0px 40px;
-}
+
 
 .reserv_right h2{
     font-size: 36px;
